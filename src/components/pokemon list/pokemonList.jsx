@@ -45,7 +45,7 @@ export const PokemonList = (props) => {
                 <img src={pokemon.sprites.front_default} alt={pokemon.name} />
                 <h2>{pokemon.name.toUpperCase()}</h2>
                 <p>ID {pokemon.id}</p>
-                <Button to={`/pokemon/${pokemon.name}`} theme={theme}>Learn more</Button>
+                <Button to={`/react-pokemon/pokemon/${pokemon.name}`} theme={theme}>Learn more</Button>
             </Pokemon>
         ))}
     </List>
