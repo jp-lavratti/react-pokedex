@@ -110,7 +110,7 @@ export const PokemonDetails = () => {
       {pokemonData && (
         <>
           <Header theme={theme}>
-            <Button to={"/react-pokedex"} theme={theme}>
+            <Button to={"/react-pokedex/"} theme={theme}>
               Menu
             </Button>
             <ThemeTogglerButton />
