@@ -101,7 +101,7 @@ Error generating stack: `+i.message+`
     background-color:${e=>e.theme.buttonHoverColor};
     color:${e=>e.theme.textColor};
     transition:0.2s;
-  }`,s1=e=>{const{theme:t}=R.useContext(rr);return _.jsx(o1,{children:e.pokemonArray.map((n,r)=>_.jsxs(i1,{theme:t,children:[_.jsx("img",{src:n.sprites.front_default,alt:n.name}),_.jsx("h2",{children:n.name.toUpperCase()}),_.jsxs("p",{children:["ID ",n.id]}),_.jsx(l1,{to:`/pokemon/${n.name}`,theme:t,children:"Learn more"})]},r))})},u1=Z.button`
+  }`,s1=e=>{const{theme:t}=R.useContext(rr);return _.jsx(o1,{children:e.pokemonArray.map((n,r)=>_.jsxs(i1,{theme:t,children:[_.jsx("img",{src:n.sprites.front_default,alt:n.name}),_.jsx("h2",{children:n.name.toUpperCase()}),_.jsxs("p",{children:["ID ",n.id]}),_.jsx(l1,{to:`/react-pokemon/pokemon/${n.name}`,theme:t,children:"Learn more"})]},r))})},u1=Z.button`
   text-decoration:none;
   padding:15px;
   background-color:${e=>e.theme.buttonColor};
